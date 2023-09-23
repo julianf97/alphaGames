@@ -1,0 +1,98 @@
+@media (max-width:600px){ 
+
+    .carrousel-index-desktop{
+        display:none;
+       
+   }
+   .carrousel-index-mobile{
+        margin-bottom: 1rem;
+        margin-top: 45px ;
+    }
+}
+   @media only screen and (min-width:600px) { 
+
+    .carrousel-index-mobile{
+        display:none
+   }
+   .carrousel-index-desktop{
+        margin-bottom: 1rem;
+        margin-top: 60px ;
+   
+    }
+
+    }
+    @media only screen and (min-width:600px) and (max-width:920px) { 
+
+        .carrousel-index-desktop{
+            margin-bottom: 1rem;
+            margin-top: 45px ;
+       
+        }
+    }
+    @media only screen and (min-width:993px) { 
+        .carrousel-index-desktop{
+            margin-bottom: 1rem;
+            margin-top: 50px ;
+       
+        } 
+    }
+    @media only screen and (max-width:992px){ 
+        
+        .carousel-caption-modificado{
+            display: none;
+        } 
+
+        .carousel-caption{
+            display: none !important;
+        }
+    }
+    @media only screen and (min-width:993px){ 
+
+        .carousel-caption-modificado{
+            background-color: rgba(0,0,0,0.5);
+            border-radius: 40px;
+            }
+        
+            .nba-button{
+                background-color: #ffc107;
+                border: #ffc107!important;
+                border-radius: 0.25rem !important;
+                padding: 0.375rem 0.75rem !important
+                
+            }
+            .nba-button:hover{
+                background-color: #E0A800;
+                border: #E0A800!important;
+                color: black;
+            }
+        
+            .valhalla{
+                background-color: #17a2b8;
+                border: #17a2b8!important;
+                border-radius: 0.25rem !important;
+                padding: 0.375rem 0.75rem !important;
+                color: #fff;
+                
+            }
+            .valhalla:hover{
+                background-color: #138496;
+                border: #138496 !important;
+                color: rgb(255, 255, 255);
+            }
+        
+            .starwars{
+                background-color: #f8f9fa;
+                border: #f8f9fa !important;
+                border-radius: 0.25rem !important;
+                padding: 0.375rem 0.75rem !important
+                
+            }
+            .starwars:hover{
+                background-color: #E2E6EA;
+                border: #E2E6EA !important;
+                color: black;
+            }
+        
+}
+ 
+ 

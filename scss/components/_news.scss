@@ -1,0 +1,112 @@
+.carta-news{
+
+    a{
+        color: #057EFF;
+    }
+    a:hover{
+        color: #044b97;
+        text-decoration: underline !important;
+    }
+}
+@media only screen and (max-width:800px){ 
+
+    .contenedor-limited-desktop{ 
+
+        display: none;
+     }
+
+     .contenedor-limited{
+        display: block !important;
+        
+     }
+
+     .limited-news-mobile{
+        padding: 1rem;
+        margin-top: -2rem;
+        display: block !important;
+        .carta-news{
+            
+            .titulos-news{
+                font-size: 1.8rem;
+                color: #000;
+                transition: all 0.5s;
+                a{
+                    color: #000;
+                    text-decoration: none;
+                }
+            }
+            .contenedor-img-carta{ 
+                overflow: hidden;
+                img{
+                    width: 100%;
+                    transition: all 0.5s;  
+                }
+            }
+            a{
+                text-decoration: none;
+            }
+        }
+    }
+ }
+ .lista-texto{
+    margin-left: -2rem;
+    
+}
+.limited-news{
+    padding: 4rem;
+    margin-top: -2rem;
+    .carta-news{
+        .titulos-news{
+            font-size: 1.8rem;
+            color: #000;
+            transition: all 0.5s;
+            a{
+                color: #000;
+                text-decoration: none;
+            }
+        }
+        .contenedor-img-carta{ 
+            overflow: hidden;
+            img{
+                width: 100%;
+                transition: all 0.5s;  
+            }
+        }
+        img:hover{
+            transform: scale(108%) !important;
+        }
+        a{
+            text-decoration: none;
+        }
+    }
+}
+@media only screen and (max-width:601px) { 
+    .banner-news{
+        display:none;
+    }
+    .banner-news-mobile{
+        width: 100%;
+        margin-top: 3.2rem;
+        height: auto;
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+    }
+ }
+ @media only screen and (min-width:600px) { 
+    .banner-news{
+        width: 100%;
+        margin-top: 3.2rem;
+        height: auto;
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+    }
+    .banner-news-mobile{
+        display: none;
+    }
+}
